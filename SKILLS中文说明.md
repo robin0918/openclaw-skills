@@ -188,4 +188,17 @@ openclaw gateway --force
 
 ---
 
+## 📝 技能更新记录
+
+### 2026-02-01
+
+**修复完成**: 移除无效的 `tools.exec.node` 配置，解决 "assistant.exec not found" 错误
+
+**解决方案**:
+1. 在 BOOTSTRAP.md 中不要添加 `tool: assistant.open_file` 配置
+2. `assistant.exec` 工具由技能内部自行处理，不需要在 OpenClaw 配置中显式指定
+3. 如需使用文件操作功能，由对应技能（如 docx, pdf 等）自动提供
+
+---
+
 *最后更新时间: 2026-02-01*
