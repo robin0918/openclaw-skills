@@ -167,4 +167,25 @@ openclaw gateway --force
 
 ---
 
+## 📝 技能更新记录
+
+### 2026-02-01
+
+**优化完成**: skill-creator 触发条件已优化
+
+添加了中文触发关键词，让 OpenClaw 更智能识别何时使用 skill-creator：
+- "创建技能" / "create skill" / "new skill"
+- "新建技能" / "new skill" / "add skill"
+- "开发技能" / "develop skill" / "build skill"
+- "写一个技能" / "write a skill" / "add a new skill"
+- "做一个技能" / "create a skill" / "make a skill"
+- "技能配置" / "skill config" / "configure skill"
+- "修改技能" / "edit skill" / "update skill"
+- "技能模板" / "skill template" / "use skill template"
+- "初始化技能" / "init skill" / "initialize skill"
+- "打包技能" / "package skill"
+- "SKILL.md" (编辑 SKILL.md 文件本身)
+
+---
+
 *最后更新时间: 2026-02-01*
