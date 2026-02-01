@@ -1,3 +1,4 @@
+---
 # OpenClaw Skills 中文说明
 # 技能管理和记录文档
 
@@ -27,11 +28,11 @@
 **Managed (4 个)**
 | 技能 | 描述 | 依赖 |
 |------|--------|------|
-| claude-code-local | Claude Code 本地集成 | Claude CLI |
-| find-skills | 技能查找安装 | ClawdHub CLI |
-| video-subtitles | 视频字幕生成 | Whisper API |
-| web-search-plus | 多源智能搜索 | Serper/Tavily/Exa API |
-| websearch-standard | 标准多源搜索 | - |
+| claude-code-local | Claude Code 本地集成（需 Claude CLI）| Claude CLI |
+| find-skills | 技能查找安装（需 ClawdHub CLI）| ClawdHub CLI |
+| video-subtitles | 视频字幕生成（需 Whisper API）| Whisper API |
+| web-search-plus | 多源智能搜索（需 API Key）| Serper/Tavily/Exa API |
+| websearch-standard | 标准多源搜索（无外部依赖）| - |
 
 ---
 
@@ -39,12 +40,12 @@
 
 | 技能 | 描述 |
 |------|--------|
-| social-content | LinkedIn/Twitter/Instagram/TikTok/Facebook 社交内容创作 |
-| marketing-ideas | SaaS/软件产品营销创意和策略 |
-| slack-gif-creator | Slack 动画 GIF 创建工具 |
-| algorithmic-art | 使用 p5.js 创建算法艺术 |
-| canvas-design | 创建视觉艺术 .png 和 .pdf 文档 |
-| theme-factory | 工件主题样式工具包 |
+| social-content | LinkedIn/Twitter/Instagram/TikTok/Facebook 社交内容创作 | - |
+| marketing-ideas | SaaS/软件产品营销创意和策略 | - |
+| slack-gif-creator | Slack 动画 GIF 创建工具 | - |
+| algorithmic-art | 使用 p5.js 创建算法艺术 | - |
+| canvas-design | 创建视觉艺术 .png 和 .pdf 文档 | - |
+| theme-factory | 工件主题样式工具包 | - |
 
 ---
 
@@ -62,10 +63,10 @@
 
 | 技能 | 描述 |
 |------|--------|
-| docx | Word 文档创建、编辑、分析 |
-| pdf | PDF 文本提取、表格处理、合并/拆分 |
-| pptx | PPTX 演示文稿创建、编辑、分析 |
-| xlsx | Excel 表格创建、编辑、分析 |
+| docx | Word 文档创建、编辑、分析 | - |
+| pdf | PDF 文本提取、表格处理、合并/拆分 | - |
+| pptx | PPTX 演示文稿创建、编辑、分析 | - |
+| xlsx | Excel 表格创建、编辑、分析 | - |
 
 ---
 
@@ -73,10 +74,10 @@
 
 | 技能 | 描述 |
 |------|--------|
-| mcp-builder | 创建高质量 MCP 服务器（Python/Node/TypeScript） |
-| web-artifacts-builder | 创建复杂 Claude AI HTML 工件（React/Tailwind） |
-| webapp-testing | Playwright 网页应用测试工具 |
-| template-skill | 技能模板描述 |
+| mcp-builder | 创建高质量 MCP 服务器（Python/Node/TypeScript） | - |
+| web-artifacts-builder | 创建复杂 Claude AI HTML 工件（React/Tailwind） | - |
+| webapp-testing | Playwright 网页应用测试工具 | - |
+| template-skill | 技能模板描述 | - |
 
 ---
 
@@ -84,10 +85,10 @@
 
 | 技能 | 描述 |
 |------|--------|
-| content-marketing | 内容营销策略指导 |
-| ecommerce-platform-specialist | Shopify 电商平台专家指导 |
-| ecommerce-seo-audit | 电商 SEO 审计，产品页面优化 |
-| Shipping-logistics | 英/美/加物流、海关、关税专家 |
+| content-marketing | 内容营销策略指导 | - |
+| ecommerce-platform-specialist | Shopify 电商平台专家指导 | - |
+| ecommerce-seo-audit | 电商 SEO 审计、产品页面优化 | - |
+| Shipping-logistics | 英/美/加物流、海关、关税专家 | - |
 
 ---
 
@@ -95,9 +96,9 @@
 
 | 技能 | 描述 |
 |------|--------|
-| brand-guidelines | 应用 Anthropic 官方品牌颜色和排版 |
-| frontend-design | 创建高质量前端界面 |
-| internal-comms | 内部通讯资源库模板 |
+| brand-guidelines | 应用 Anthropic 官方品牌颜色和排版 | - |
+| frontend-design | 创建高质量前端界面 | - |
+| internal-comms | 内部通讯资源库模板 | - |
 
 ---
 
@@ -105,11 +106,11 @@
 
 | 技能 | 描述 |
 |------|--------|
-| customer-service | 全方位客户服务支持 |
-| doc-coauthoring | 指导用户完成文档协作工作流程 |
-| influencer-marketing | Instagram/YouTube/TikTok 网红营销专家 |
-| influencer-outreach-template | Instagram/YouTube/TikTok 网红合作模板 |
-| internationalization-i18n | 实现 i18n 国际化和本地化 |
+| customer-service | 全方位客户服务支持 | - |
+| doc-coauthoring | 指导用户完成文档协作工作流程 | - |
+| influencer-marketing | Instagram/YouTube/TikTok 网红营销专家 | - |
+| influencer-outreach-template | Instagram/YouTube/TikTok 网红合作模板 | - |
+| internationalization-i18n | 实现 i18n 国际化和本地化 | - |
 
 ---
 
@@ -164,40 +165,6 @@ openclaw gateway --force
 | 仓库地址 | 说明 |
 |----------|--------|
 | https://github.com/robin0918/openclaw-skills | OpenClaw 技能配置文档 |
-
----
-
-## 📝 技能更新记录
-
-### 2026-02-01
-
-**优化完成**: skill-creator 触发条件已优化
-
-添加了中文触发关键词，让 OpenClaw 更智能识别何时使用 skill-creator：
-- "创建技能" / "create skill" / "new skill"
-- "新建技能" / "new skill" / "add skill"
-- "开发技能" / "develop skill" / "build skill"
-- "写一个技能" / "write a skill" / "add a new skill"
-- "做一个技能" / "create a skill" / "make a skill"
-- "技能配置" / "skill config" / "configure skill"
-- "修改技能" / "edit skill" / "update skill"
-- "技能模板" / "skill template" / "use skill template"
-- "初始化技能" / "init skill" / "initialize skill"
-- "打包技能" / "package skill"
-- "SKILL.md" (编辑 SKILL.md 文件本身)
-
----
-
-## 📝 技能更新记录
-
-### 2026-02-01
-
-**修复完成**: 移除无效的 `tools.exec.node` 配置，解决 "assistant.exec not found" 错误
-
-**解决方案**:
-1. 在 BOOTSTRAP.md 中不要添加 `tool: assistant.open_file` 配置
-2. `assistant.exec` 工具由技能内部自行处理，不需要在 OpenClaw 配置中显式指定
-3. 如需使用文件操作功能，由对应技能（如 docx, pdf 等）自动提供
 
 ---
 
